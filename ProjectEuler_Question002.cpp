@@ -1,3 +1,6 @@
+/* Obtains the sum of all even numbers of the Fibinacci sequence that are below 4,000,000 */
+
+
 #include <iostream>
 
 using namespace std;

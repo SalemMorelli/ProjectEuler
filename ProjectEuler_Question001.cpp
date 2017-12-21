@@ -1,3 +1,6 @@
+/*Lists the sum of all natural numbers below 100 that are a multiple of 3 or 5 and both */
+
+
 #include <iostream>
 
 using namespace std;
