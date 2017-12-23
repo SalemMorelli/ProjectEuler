@@ -40,12 +40,12 @@ int Palindrome(unsigned long some_number){
     unsigned long int reversed = 0;
 
     do{
-        last_num = n % 10;    //obtains the last digit of a number
+        last_num = number % 10;    //obtains the last digit of a number
         reversed = (reversed * 10) + last_num;   //adds this number to the nth position
-        n = n/10;              //reduces the number until 0 also allows one move along the number 
+        number = number/10;              //reduces the number until 0 also allows one move along the number 
     }
-    while(n != 0);                              //setting the condition to stop at 0
+    while(number != 0);                              //setting the condition to stop at 0
 
-    return number == reversed;    //returns the number once a palindrome is found
+    return some_number == reversed;    //returns the number once a palindrome is found
 
 }
