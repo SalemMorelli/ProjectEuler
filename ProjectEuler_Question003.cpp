@@ -12,7 +12,7 @@ int main(){
     long int number = 60085147543;    //number given by project Euler
     int i;
 
-    for(i = 2; i*i<number; i++){
+    for(i = 2; i*i<number; i++){ //i*i reduces the number of iterations. Hence cost-effective
         while(number%i == 0){
             cout<<i<<" Number is a factor"<<endl;
 
